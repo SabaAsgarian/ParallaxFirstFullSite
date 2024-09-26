@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'aos/dist/aos.css';
+body{
+  background-color: black;
+ overflow-x: hidden;
+ width:100%;
+}
+
+.movetoleft-wrapper {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.movetoleft-container {
+  width: 400%; /* Make the container wider than the wrapper */
+}
+
+.movetoleft {
+  animation: movetoleft 20s linear infinite ;
+  display: inline-block;
+  width: 100%; /* Make the text as wide as the container */
+  transform: translateX(0); 
+  animation-delay: -50s;
+  white-space: nowrap;
+  overflow: hidden;
+  /* Start the text at the beginning of the container */
+}
+
+@keyframes movetoleft {
+  
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.page2{
+  transition: 1s;
+  &:hover{
+    transform: scale(1.2);
+  }
+}
+.colorlink{
+  transition: 1s;
+  
+  &:hover{
+    color: #30efc1;
+  }
+}
+.box-hover{
+  transition: 1s;
+  &:hover{
+    transform: translateY(-20%);
+  }
+}

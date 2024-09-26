@@ -1,0 +1,49 @@
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+  
+    font-family: is;
+    font-size: 14px;
+
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: white !important;  /* {{ edit_1 }} Set pagination bullet color to orange */
+  }
+  .swiper-button-next,
+.swiper-button-prev {
+  color: white !important; 
+   /* {{ edit_1 }} Set navigation arrow color to #f26322 */
+}
