@@ -41,7 +41,7 @@ export default function Header() {
                 <SwiperSlide>
                     <Image src={b} alt='img2' style={{ position: 'relative' }} />
                     <div className='absolute bg-[#2d2d2d57] bottom-0 left-[50%] translate-x-[-50%] translate-y-[-50%] w-full' >
-                        <h1 className='w-full text-[50px] text-white'>COMMUNITY•CONNECTED•CONVENIENT </h1>
+                        <h1 className='w-full text-[23px] lg:text-[50px] text-white'>COMMUNITY•CONNECTED•CONVENIENT </h1>
                         <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', width: '100%' }}>
                             <Button sx={{
                                 borderRadius: '0px', border: '2px solid white', width: '150px', color: 'white', '&:hover': {
@@ -55,7 +55,7 @@ export default function Header() {
                 <SwiperSlide>
                     <Image src={c} alt='img3' style={{ position: 'relative' }} />
                     <div className='absolute bg-[#2d2d2d57] bottom-0 left-[50%] translate-x-[-50%] translate-y-[-50%] w-full' >
-                        <h1 className='w-full text-[50px] text-white'>COMMUNITY•CONNECTED•CONVENIENT </h1>
+                        <h1 className='w-full text-[23px] lg:text-[50px] text-white'>COMMUNITY•CONNECTED•CONVENIENT </h1>
                         <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', width: '100%' }}>
                             <Button sx={{
                                 borderRadius: '0px', border: '2px solid white', width: '150px', color: 'white', '&:hover': {
@@ -69,7 +69,7 @@ export default function Header() {
                 <SwiperSlide>
                     <Image src={gif} alt="GIF"  style={{ position: 'relative' }} />
                     <div className='absolute bg-[#2d2d2d57] bottom-[-2%] left-[50%] translate-x-[-50%] w-full' >
-                        <h1 className='w-full text-[50px] text-white'>MAKE•COMPLEXITY•SIMPLE </h1>
+                        <h1 className='w-full text-[23px] lg:text-[50px] text-white'>MAKE•COMPLEXITY•SIMPLE </h1>
                         <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', width: '100%', marginBottom: '2%' }}>
                             <Button sx={{
                                 borderRadius: '0px', border: '2px solid white', width: '150px', color: 'white', '&:hover': {
