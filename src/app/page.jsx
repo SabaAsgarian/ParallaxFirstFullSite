@@ -83,10 +83,10 @@ export default function Page() {
           </Box>
         </Box>
       </div>
-      <div id='shop'>
+      <div className="h-auto" id='shop'>
         <Scrolledcard />
       </div>
-      <div className="bg-food  bg-cover bg-center" id='eat'>
+      <div className="bg-food  bg-cover bg-center h-auto" id='eat'>
         <Scrolledcardtwo />
       </div>
       <Anime />
