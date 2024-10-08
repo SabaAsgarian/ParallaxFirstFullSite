@@ -36,7 +36,7 @@ const MyCard = () => {
 
 
     return (
-        <Box sx={{ height: '200vh', display: 'flex', justifyContent: 'center', alignItems: 'center',marginTop:{xs:'70%',md:'25%'},marginBottom:'10%' }}>
+        <Box sx={{ height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center',marginTop:{xs:'70%',md:'25%'},marginBottom:'10%' }}>
             <Box sx={{ position: 'relative' ,flex: 1, display: 'flex', flexDirection: 'column',}}>
                 <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center',width:'50%' }}>
                     <Card sx={leftColumnStyle}>
