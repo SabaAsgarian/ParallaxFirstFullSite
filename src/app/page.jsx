@@ -59,7 +59,7 @@ export default function Page() {
           <Image src={loading} alt="Loading" layout="responsive" priority />
         </div>
       </>
-    )// Your custom loading indicator
+    )
   }
   return (
 
