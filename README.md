@@ -12,8 +12,6 @@
 
 
 
-
-
 - [Demo Project](https://parallaxsiteone.vercel.app/)
 
 - Developed by Saba Asgarian
